@@ -1,0 +1,27 @@
+Velevelebny pane cvicici,
+
+Rad bych zde uvedl detailnejsi specifikaci vlastnosti sveho pripravovaneho
+zapoctoveho programu. Necht je tedy timto ucineno...
+
+1. Muj zapoctovy program (dale jen Zapoctovy Program) bude implementace
+ operaci s vyvazenymi vyhledavacimi stromy - konkretne s 2-3 stromem.
+2. Grafovy model stromu v Zapoctovem Programu bude realizovan skrze dynamicke
+ promenne. Vnitrni uzly budou dynamicky alokovane zaznamy odkazujici se na sve
+ potomky a obsahujici 1 az 2 klicove atributy reprezentujici minima
+ odpovidajicich podstromu. Listy budou nosici samotnych dat.
+3. Jelikoz je Zapoctovy Program ve sve podstate knihovnou ve zvlastni unite,
+ pokusim se prilozit i demonstrativni hlavni program, ktery bude slouzit jako
+ jakysi obsluzna nabidka pro operace se stromy - insert, delete, find, findmin,
+ findmax, next a (da-li Panbuh) i display jako rozumny zpusob vykresleni stromu
+ na vystup.
+4. Vstup i vystup Zapoctoveho Programu bude umoznen skrze hlavni program (viz
+vyse), hlavni vypocetni jadro vsak bude vezet v unite knihovny stromovych
+operaci.
+
+Dekuji Vam za cas a usili vynalozene pri cteni tohoto neprilis zabavneho
+materialu a predem Vam hluboce dekuji za jakekoliv Vase pripominky a napady k
+usnadneni a vylepseni tohoto ne zrovna snadneho cile.
+
+S pranim prijemneho zbytku zivota a mnoha uzitecnych ci prekvapivych darecku
+pod vanocnim 2-3 stromeckem.
+        Duc Trung Ha

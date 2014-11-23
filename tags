@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BubbleKidz	twhree.c	/^void BubbleKidz(struct subtree * tmp_kidz) {$/;"	f
+TItem	twhree.h	/^struct TItem {$/;"	s
+TWHREE_H	twhree.h	8;"	d
+branch	twhree.c	/^struct node * branch(struct node *cur, int key) {$/;"	f
+delete	twhree.c	/^int delete(struct node **pRoot, int key) {$/;"	f
+deleteAll	twhree.c	/^void deleteAll(struct node **pRoot) {$/;"	f
+displayMenu	main.c	/^void displayMenu() {$/;"	f
+displayNode	twhree.c	/^void displayNode(struct node * cur) {$/;"	f
+displayStruct	twhree.c	/^void displayStruct(struct node *cur, int lvl) {$/;"	f
+find	twhree.c	/^struct TItem * find(struct node *root, int sKey) {$/;"	f
+findMax	twhree.c	/^struct TItem * findMax(struct node *root) {$/;"	f
+findMin	twhree.c	/^struct TItem * findMin(struct node *root) {$/;"	f
+insert	twhree.c	/^struct node * insert(struct TItem *pNewItem, struct node **pRoot) {$/;"	f
+key	twhree.h	/^  int key;$/;"	m	struct:TItem
+kidz	twhree.h	/^  struct subtree kidz[3];            \/* children of the node *\/$/;"	m	struct:node	typeref:struct:node::subtree
+main	main.c	/^int main() {$/;"	f
+max_key	twhree.h	/^  int max_key;                       \/* ...and its maximal key *\/$/;"	m	struct:subtree
+name	twhree.h	/^  char name[10];$/;"	m	struct:TItem
+next	twhree.c	/^struct TItem * next(struct node *root, int sKey) {$/;"	f
+node	twhree.h	/^struct node {                        \/* node of 2-3 tree *\/$/;"	s
+pData	twhree.h	/^  struct TItem *pData;$/;"	m	struct:node	typeref:struct:node::TItem
+parent	twhree.h	/^  struct node *parent;               \/* parent of the node *\/$/;"	m	struct:node	typeref:struct:node::node
+previous	twhree.c	/^struct TItem * previous(struct node *root, int sKey) {$/;"	f
+sub	twhree.h	/^  struct node *sub;                  \/* pointer to a subtree *\/$/;"	m	struct:subtree	typeref:struct:subtree::node
+subtree	twhree.h	/^struct subtree {$/;"	s
+updateMaxKeys	twhree.c	/^void updateMaxKeys(struct node * start) {$/;"	f
